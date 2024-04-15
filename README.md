@@ -16,8 +16,10 @@ To write a program to perform linear search and binary search using python progr
 4.	If x > mid, compare x with the middle element of the elements on the right side of mid. This is done by setting low to low = mid + 1.
 5.	Else, compare x with the middle element of the elements on the left side of mid. This is done by setting high to high = mid - 1.
 6.	Repeat steps 2 to 5 until low meets high
-## Program:
-# i)Use a linear search method to match the item in a list.
+## DEVELOPED BY:K.LIGNESHWAR
+## REG NO:212223230113
+## Program to find Linear Search and Binary search
+# i.Use a linear search method to match the item in a list.
 ```
 def linearSearch(array,n,k):
    for i in range(0,n):
@@ -36,7 +38,7 @@ else:
     print("Element found at index: ",result)
 
 ```
-# ii)Find the element in a list using Binary Search(Iterative Method).
+# ii.Find the element in a list using Binary Search(Iterative Method).
 ```
 def binarySearchIter(array, k, low, high):
     while low<=high:
@@ -59,7 +61,7 @@ else:
     print("Element found at index: ",result)
 
 ```
-# iii) Find the element in a list using Binary Search (recursive Method).
+# iii.Find the element in a list using Binary Search (recursive Method).
 ```
 def BinarySearch(arr, k, low, high):
     if low<=high:
@@ -82,11 +84,11 @@ else:
     print(arr,"\nElement found at index: ",result)
 ```
 ## Sample Input and Output:
-# i)Use a linear search method to match the item in a list.
-# ii)Find the element in a list using Binary Search(Iterative Method).
-# iii) Find the element in a list using Binary Search (recursive Method).
-
-
-
+# i.Use a linear search method to match the item in a list:
+![alt text](<Screenshot 2024-04-15 161445.png>)
+# ii.Find the element in a list using Binary Search(Iterative Method).
+![alt text](<Screenshot 2024-04-15 161504.png>)
+# iii.Find the element in a list using Binary Search (recursive Method).
+![alt text](<Screenshot 2024-04-15 161532.png>)
 ## Result:
 Thus the linear search and binary search algorithm is implemented using python programming.
